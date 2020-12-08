@@ -1,0 +1,2 @@
+include ':app', ':mcu-test'
+rootProject.name='My Application'
