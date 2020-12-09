@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
             if (mCarInfoManager == null) {
                 Log.d(TAG, "mCarInfoManager==null ");
             }
+
+
         } catch (CarNotConnectedException e) {
             Log.e(TAG, "carImpl can not connect android car service");
         }
